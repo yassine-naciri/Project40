@@ -1,0 +1,516 @@
+
+*{
+    color: #314584;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+header ul li > a{
+    color: #314584;
+}
+
+header ul {
+    font-size: large;
+    
+
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+}
+
+
+
+header ul h1{
+    border-bottom: 5px solid #ff3744;
+    
+}
+
+.btn{
+    color: #ff3744;
+    background:#ffffff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px 1px bisque;
+}
+
+
+.active{
+    color: #ff3744;
+}
+
+.part-2 .v2 > img{
+    width: 40rem;
+}
+
+.part-2{
+    display: flex;
+    justify-content: center;
+}
+
+.v1{
+width: 30rem;}
+.part-2 p{
+    color: #a4a7a8;
+}
+
+.part-2 h1{
+    
+    font-size: 60px;
+    color: #314584;
+}
+
+.btn-red{
+    padding: 0.8rem 1.9rem;
+    border-radius: 20px;
+    background: #ff3744;
+    color: #ffffff;
+    font-size: large;
+    border: none;
+}
+
+.part-2 .v1{
+    padding: 5rem;
+}
+.btn-white{
+    padding: 0.8rem 1.9rem;
+    background: transparent;
+    border: none;
+    font-size: large;
+    border: none;
+}
+
+
+.part-2 .v1 p{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.384);
+
+}
+
+.part-2 .v1 form{
+    margin-top: 2rem;
+    display: flex;
+    gap: 20px;
+}
+
+.part-3{
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+.part-3 h1{
+    
+    font-size: 45px;
+    color: #314584;
+}
+
+.part-3 .v1 > button{
+    padding: 0.9rem 1.9rem;
+    border-radius: 20px;
+    background: #ff3744;
+    color: #ffffff;
+    font-size: large;
+    border: none;
+    
+}
+
+.part-3 .v1{
+    width: 20vw;
+}
+.part-3 .v2{
+    width: 20vw;
+}
+.part-3 .v3{
+    width: 20vw;
+    
+}
+
+
+.part-4{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+
+
+}
+.part-4 .v1 h1{
+    font-size: 50px;
+    color:#314584;
+
+}
+
+
+.part-4 .v1  {
+    padding-left: 16rem;
+width: 79vw;
+
+
+}
+
+.part-4 .v1 h3{
+    color:#ff3744;
+
+}
+
+
+.part-4 .v1 input::placeholder{
+    color:#314584;
+    font-weight: bolder;
+
+
+}
+.part-4 .v1 form {
+    display: flex;
+    gap: 20px;
+    
+    
+
+
+   
+
+}
+
+
+.part-4 .v1 form > input{
+    background: #429dda21;
+    padding-left: 1rem;
+
+    border: none;
+
+    font-size: larger;
+    width: 40rem;
+    height: 4rem;
+    color:#314584;
+    border-radius: 5px;
+
+}
+
+
+
+.part-4  .text > textarea::placeholder{
+    width: 65vw;
+
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    
+}
+
+
+.part-4 .text  {
+    padding-left: 16rem;
+width: 79vw;
+
+
+}
+
+.part-4  .text > textarea{
+    
+    padding-left: 1rem;
+    background: #429dda21;
+    border: none;
+    
+    width: 79vw;
+    height: 10rem;
+   
+}
+
+
+.submit button{
+    padding: 1rem 4rem;
+    border-radius: 20px;
+    background: #ff3744;
+    color: #ffffff;
+    font-size: large;
+    border: none;
+    
+}
+
+
+.red{
+    color: rgb(228, 52, 52);
+}
+
+.last{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.last > .links > ul{
+    display: flex;
+    gap: 40px;
+    font-size: larger;
+}
+
+.copyright{
+    padding-top: 1rem;
+}
+.last > .images {
+    display: flex;
+    padding-top: 1rem;
+    gap: 30px;
+}
+
+.doob{
+    position: relative;
+    top: 2rem;
+}
+
+#checker , label{
+    display: none;
+}
+
+.close{display: none;}
+@media (max-width:440px) {
+    label{display: block;}
+    header ul li , .btn {
+        display: none;
+    }
+    
+
+    .part-2 .v2 > img{
+        width: 25rem;
+    }
+    .part-2{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .part-2 h1{
+    
+        font-size: 30px;
+        color: #314584;
+    }
+    
+
+    header .title h1{
+        position: relative;
+        right: 6rem;
+        
+        bottom: 50px;
+        border-bottom: 3px solid #ff3744;
+        font-size: 25px;
+        
+    }
+header ul li > a{
+    
+    color: #314584;
+}
+
+header ul {
+    position: relative;
+    right: 4rem;
+    
+
+    font-size: small;
+    
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+
+
+.btn{
+    color: #ff3744;
+    background:#ffffff;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+
+    box-shadow: 1px 2px 1px 1px bisque;
+}
+
+
+.part-2 .v1{
+    padding: 1rem;
+}
+
+
+.part-3{
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+.part-3 h1{
+    
+    font-size: 20px;
+    color: #314584;
+}
+
+.part-3 .v1 > button{
+    padding: 0.5rem 1.2rem;
+    border-radius: 10px;
+    background: #ff3744;
+    color: #ffffff;
+    font-size: large;
+    border: none;
+    
+}
+
+.part-3 .v1{
+    width: 80vw;
+}
+.part-3 .v2{
+    width: 80vw;
+}
+.part-3 .v3{
+    width: 80vw;
+    
+}
+
+.part-4{
+    display: flex;
+    
+    flex-direction: column;
+    padding-right: 20rem;
+
+    gap: 30px;
+
+
+
+}
+.part-4 .v1 h1{
+    font-size: 20px;
+    color:#314584;
+
+}
+
+
+
+
+.part-4 .v1 h3{
+    color:#ff3744;
+
+}
+
+
+.part-4 .v1 input::placeholder{
+    color:#314584;
+    font-weight: bolder;
+
+
+}
+.part-4 .v1 form {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;}
+
+
+.part-4 .v1 form > input{
+    background: #429dda21;
+    padding-left: 1rem;
+
+    border: none;
+
+    font-size: larger;
+    width: 25rem;
+    height: 4rem;
+    color:#314584;
+    border-radius: 5px;
+    
+
+}
+
+
+
+.part-4  .text > textarea::placeholder{
+    width: 65vw;
+
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    
+}
+
+
+.part-4 .text  {
+width: 79vw;
+
+
+}
+
+.part-4  .text > textarea{
+    
+    padding-left: 1rem;
+    background: #429dda21;
+    border: none;
+    
+    width: 79vw;
+    height: 10rem;
+   
+}
+
+
+.submit button{
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    background: #ff3744;
+    color: #ffffff;
+    font-size: large;
+    border: none;
+    
+}
+
+
+.last{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.last > .links > ul{
+    display: flex;
+    gap: 20px;
+    font-size: larger;
+}
+
+.copyright{
+    padding-top: 1rem;
+}
+.last > .images {
+    display: flex;
+    padding-top: 1rem;
+    gap: 30px;
+}
+
+.doob{
+    position: relative;
+    top: 2rem;
+}
+
+#checker:checked+ul li , .btn{
+    display: block;
+    
+}
+
+
+}
